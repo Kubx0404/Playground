@@ -1,0 +1,57 @@
+.star {
+  /* height: 5px; */
+  /* width: 5px; */
+  /* background-color: white; */
+  position: absolute;
+  color: blue;
+  font-size: 200%;
+  animation: fall 1.5s ease;
+  animation-fill-mode: forwards;
+}
+.dot {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  box-shadow: 0rem 0rem 40px 20px rgb(161, 13, 195);
+}
+body {
+  background-color: black;
+  /* width: 100vw;
+  height: 100vh; */
+}
+
+@keyframes fall-1 {
+  0% {
+    transform: rotateX(0) rotateY(0) rotateZ(0) translate(0px, 0px);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(-29deg) rotateY(65deg) rotateZ(20deg)
+      translate(0px, 200px);
+    opacity: 0;
+  }
+}
+
+@keyframes fall-2 {
+  0% {
+    transform: rotateX(0) rotateY(0) rotateZ(0) translate(0px, 0px);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(87deg) rotateY(59deg) rotateZ(-38deg)
+      translate(0px, 200px);
+    opacity: 0;
+  }
+}
+
+@keyframes fall-3 {
+  0% {
+    transform: rotateX(0) rotateY(0) rotateZ(0) translate(0px, 0px);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(14deg) rotateY(80deg) rotateZ(20deg)
+      translate(0px, 200px);
+    opacity: 0;
+  }
+}
