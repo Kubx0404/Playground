@@ -5,8 +5,8 @@ body {
   background-color: black;
 }
 .entity {
-  background-color: brown;
+  /* background-color: brown; */
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  /* width: 100px; */
 }
